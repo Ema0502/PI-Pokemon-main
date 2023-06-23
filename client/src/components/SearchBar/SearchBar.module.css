@@ -1,0 +1,25 @@
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.SearchBar {
+  border-radius: 2em;
+  margin-right: 1em;
+  padding: 0.5em;
+  font-size: 1.3em;
+}
+
+.button-navBar {
+  width: 130px;
+  height: 40px;
+  padding: 10px 1px 1px 1px;
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10rem;
+  color: #000;
+  font-size: 1.4rem;
+  transition: all .3s;
+  background-image: linear-gradient(to right, #50ffff, #00ffe9, #00ffc8, #00ff9c, #50ff66);
+}

@@ -1,0 +1,45 @@
+.body-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../Image/pxfuel21.jpg");
+  background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita en el fondo */
+  background-position: center center; /* Coloca la imagen en el centro del fondo */
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+  background-color:rgba(80, 255, 255, 0.7);
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  /* animacion para un cambio gradual */  
+  -moz-osx-fontsmoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.card-container:hover{
+  transform: scale(1.05);
+}
+
+.image-pokemon{
+  width: 55%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Ajusta la altura de la imagen automáticamente */
+  object-fit: cover; /* Ajusta el tamaño de la imagen sin distorsión */
+}
+
+.box-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  border-radius: .8em;
+  padding: 10px;
+}

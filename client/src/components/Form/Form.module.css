@@ -1,0 +1,35 @@
+.body-form{
+  margin-top: 80px; /* Ajusta la altura de la NavBar */
+  padding-bottom: 20px; /* Ajusta el espacio hacia abajo */
+}
+
+.box-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  padding: 5px 50px 5px 50px;
+  width: 450px;
+  height: 60px;
+  border-radius: .8em;
+  display: flex; /* Establece el contenedor del cuadro como un flexbox */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  margin-top: 5px; /* Ajusta la altura de la NavBar */
+}
+
+.button-submit {
+  width: 200px;
+  height: 50px;
+  margin-top: 5px;
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10rem;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-image: linear-gradient(to right, #50ffff, #00ffe9, #00ffc8, #00ff9c, #50ff66);
+}

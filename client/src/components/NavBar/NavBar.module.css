@@ -1,0 +1,28 @@
+.navBar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(58, 176, 255, 0.9);
+  padding: 10px;
+}
+
+.button-navBar {
+  width: 130px;
+  height: 40px;
+  padding: 10px 1px 1px 1px;
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10rem;
+  color: #000;
+  font-size: 1.4rem;
+  transition: all .3s;
+  background-image: linear-gradient(to right, #50ffff, #00ffe9, #00ffc8, #00ff9c, #50ff66);
+}

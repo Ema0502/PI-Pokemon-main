@@ -1,0 +1,12 @@
+.body-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("../../Image/1177514.jpg");
+  background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita en el fondo */
+  background-position: center center; /* Coloca la imagen en el centro del fondo */
+  background-attachment: fixed;
+}

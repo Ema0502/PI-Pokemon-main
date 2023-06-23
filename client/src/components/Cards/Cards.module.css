@@ -1,0 +1,9 @@
+.cards-list{
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 90px; /* Ajusta la altura de la NavBar */
+  padding-bottom: 20px; /* Ajusta el espacio hacia abajo */
+}

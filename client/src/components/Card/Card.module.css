@@ -1,0 +1,34 @@
+.card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+  background-color:rgba(80, 255, 255, 0.7);
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  /* animacion para un cambio gradual */  
+  -moz-osx-fontsmoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover{
+  transform: scale(1.05);
+}
+
+.image-pokemon{
+  width: 30%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Ajusta la altura de la imagen automáticamente */
+  object-fit: cover; /* Ajusta el tamaño de la imagen sin distorsión */
+}
+
+.box-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  border-radius: .8em;
+  padding: 5px;
+}
